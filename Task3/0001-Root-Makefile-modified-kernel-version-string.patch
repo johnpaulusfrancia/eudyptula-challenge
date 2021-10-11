@@ -1,0 +1,28 @@
+From c1f1a888df9d70a229775af5b7af45f3675c49c7 Mon Sep 17 00:00:00 2001
+From: john paulus francia <jpaulusfrancia@gmail.com>
+Date: Sun, 10 Oct 2021 13:58:53 -0700
+Subject: [PATCH] Root: Makefile: modified kernel version string
+
+Added "-eudyptula" to the EXTRAVERSION variable in Makefile to satisfy eudyptula challenge part-3 requirements.
+
+Signed-off-by: john paulus francia <jpaulusfrancia@gmail.com>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 7b74223d1309..ef8491abcb28 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 15
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc4
++EXTRAVERSION = -eudyptula-rc4
+ NAME = Opossums on Parade
+ 
+ # *DOCUMENTATION*
+-- 
+2.17.1
+
